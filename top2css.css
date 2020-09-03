@@ -2,7 +2,10 @@
 
 .logologo{
   float: left;
+}
 
+div.logologo img{
+height: 60px;
 }
 /* 検索ボックス */
 .top-kensaku{
@@ -27,7 +30,8 @@
 
 .menu p{
   float: left;
-  margin: 20px;
+  margin: 10px;
   color: green;
   background-color: #EDF0E5;
+  font-size: large;
 }
