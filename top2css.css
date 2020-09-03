@@ -1,0 +1,33 @@
+/* ヘッダー */
+
+.logologo{
+  float: left;
+
+}
+/* 検索ボックス */
+.top-kensaku{
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30px;
+}
+
+.top-kensaku .textarea{
+  height: 30px;
+  width: auto;
+}
+.top-kensaku .button{
+  background: green;
+  height: 30px;
+}
+/* 右上のプルダウンメニュー */
+.menu{
+  float: right;
+}
+
+.menu p{
+  float: left;
+  margin: 20px;
+  color: green;
+  background-color: #EDF0E5;
+}
