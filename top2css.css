@@ -35,3 +35,23 @@ height: 60px;
   background-color: #EDF0E5;
   font-size: large;
 }
+
+/* メイン */
+.emergency .emergency-information{
+  color: red;
+  position: relative;
+  top: 80px;
+  left: 10px;
+  margin-right:10px;
+  border: solid 2px red;
+  padding-bottom: 5em;
+  font-size: larger;
+}
+
+
+.emergency .alert{
+  background-color: yellow;
+  margin-right: 10px;
+  position: relative;
+  left: 10px;
+}
