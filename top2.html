@@ -22,17 +22,29 @@
           <input type="submit" value="検索" class="button" onclick="pagesearch('/pageall.json',true);return false;">
         </div>
   <!-- 上部右上プルダウンメニュ -->
-        <div class="menu">
-          <p class="yomiage">読み上げ</p>
-          <li class="mojiiro">文字・色
-            <ul class="dropdown">
-              <li><a href="#">sample</a></li>
-              <li><a href="#">sample</a></li>
+        <ul class="dropdwn">
+          <li>読み上げ
+          </li>
+          <li>文字・色
+            <ul class="dropdwn_menu">
+              <li>文字の大きさ</li>
+              <li>配色</li>
             </ul>
           </li>
-          <p class="hurigana">ふりがな</p>
-          <p class="translation">Translation</p>
-        </div>
+          <li>ふりがな
+            <ul class="dropdwn_menu">
+              <li>表示</li>
+              <li>非表示</li>
+            </ul>
+          </li>
+          <li>Translation
+            <ul class="dropdwn_menu">
+              <li>Japanese</li>
+              <li>English</li>
+              <li>中文</li>
+            </ul>
+          </li>
+        </ul>
     </h1>
   </header>
   <!-- メインここから -->
@@ -42,8 +54,30 @@
       <p class="emergency-information">緊急情報</p>
       <p class="alert">注意報</p>
     </div>
+
+    ＜<div class="top_middle">
+      <!-- ピックアップ -->
+      <div class="pickup">
+        <p class="pickup_information">ピックアップ</p>
+      </div>
+
+      <!-- 地域・地区情報 -->
+      <div class="place">
+        <p class="place_information"><a href="#">世田谷</a></p>
+        <p class="place_information"><a href="#">北沢</a></p>
+        <p class="place_information"><a href="#">玉川</a></p>
+        <p class="place_information"><a href="#">砧</a></p>
+        <p class="place_information"><a href="#">烏山</a></p>
+      </div>
+    </div>
+    <!-- 背景画像
+    <div class="background_image1">
+      <img src="background_red.jpeg" alt="">
+      </a>
+    </div> -->
   </main>
   <!-- JavaScriptのリンク -->
   <script type="text/javascript" src="top2js.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>

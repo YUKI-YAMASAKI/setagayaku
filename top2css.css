@@ -24,34 +24,111 @@ height: 60px;
   height: 30px;
 }
 /* 右上のプルダウンメニュー */
-.menu{
-  float: right;
+.dropdwn{
+  display: flex;
+  max-width: px;
+  border: solid 2px black;
+  margin-top: 30px;
+  margin-left: 700px;
+  margin-right: 100px;
 }
-
-.menu p{
-  float: left;
-  margin: 10px;
+ul{
+  text-align: center;
+  list-style-type: none;
+  margin: 0em;
+  padding: 0em;
   color: green;
-  background-color: #EDF0E5;
-  font-size: large;
 }
 
+li{
+  max-width: calc(800px/5);
+  position: relative;
+  padding: 0px;
+  display: block;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  border: solid 2px blue;
+  margin-top: 10px;
+  background-color: #edf0e5;
+}
+
+.dropdwn li{
+width: 1500px;
+margin: 1px;
+display: inline;
+}
+
+.dropdwn_menu{   /* ドロップダウンメニューの中身を隠す */
+  width: 100%;
+  display: none;
+  padding: 0em;
+}
+
+.dropdwn_menu li{
+  width: 100%;
+}
+
+li :hover{
+  background:#b3d7ff ;
+}
 /* メイン */
 .emergency .emergency-information{
   color: red;
   position: relative;
   top: 80px;
   left: 10px;
-  margin-right:10px;
+  margin-right:200px;
   border: solid 2px red;
   padding-bottom: 5em;
   font-size: larger;
+  margin-left: 200px;
 }
 
 
 .emergency .alert{
   background-color: yellow;
-  margin-right: 10px;
+  margin-right: 200px;
+  margin-left: 200px;
   position: relative;
   left: 10px;
+}
+
+/* ピックアップ */
+
+.pickup{
+  position: relative;
+  margin-top: 70px;
+  border: solid 2px black;
+  border-radius: 10px;
+  margin-right: 100px;
+  margin-left: 200px;
+  width: 600px;
+}
+
+.pickup_information{
+  margin-top: 300px;
+  background-color: black;
+  color: yellow;
+  margin-bottom: 0em;
+  border-radius: 0px 0px 5px 5px;
+  padding-right: 00px;
+}
+
+/* 地域・地区情報 */
+.top_middle{
+  display: flex;
+}
+
+.place{
+  margin-left: 150px ;
+  border: solid 2px black;
+  margin-top: 70px;
+  background-image: background_red.jpeg;
+}
+
+.place_information{
+  font-size: 20px;
+  text-align: center;
+
 }

@@ -1,7 +1,8 @@
 // 右上のプルダウンメニュー
-$(dropdown).hover(
-  function () {
-    $(this).children('.dropdown').addclass('open');
+$(function () {
+  $('.dropdwn li').hover(function () {
+    $("ul:not(:animated)", this).slidedown();
   }, function () {
-    $(this).children('.dropdown').addclass('close');
-  }
+    $("ul.dropdwn_menu", this).slideUp();
+  });
+});
