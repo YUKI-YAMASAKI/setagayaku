@@ -1,7 +1,7 @@
 // 右上のプルダウンメニュー
 $(function () {
   $('.dropdwn li').hover(function () {
-    $("ul:not(:animated)", this).slidedown();
+    $("ul:not(:animated)", this).slideDown();
   }, function () {
     $("ul.dropdwn_menu", this).slideUp();
   });
